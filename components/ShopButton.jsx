@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import '/components/ShopButton.css'
+// import '/components/ShopButton.css'
 
 function ShopButton() {
     
@@ -10,7 +10,7 @@ function ShopButton() {
     }
 
     return (
-        <button type="submit" onClick={handleClick}>
+        <button type="submit" className="btn btn-primary" onClick={handleClick}>
             Shop
         </button>
     )

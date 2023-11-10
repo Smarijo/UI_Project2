@@ -8,7 +8,7 @@
     height: 200px;
     border: solid;
   }
-h2 {
+/* h2 {
     text-align: center;
     width: 100%;
     line-height: 1.1px;
@@ -16,7 +16,7 @@ h2 {
 h3 {
     
     line-height: 1.1px;
-}
+} */
 .course {
     text-align: center;
     place-items: center;
