@@ -3,6 +3,8 @@ import 'react-circular-progressbar/dist/styles.css';
 import ShopButton from '../components/ShopButton'
 import '/pages/Home.css';
 import { Link } from 'react-router-dom';
+import AssignmentsBox from '../components/AssignmentsBox'
+
 
 
 function Home() {
@@ -11,8 +13,7 @@ function Home() {
         <>
             <div className='assignments-container'>
                 <div className='text-center'>
-                    <h2>Assignments</h2>
-                    <br></br>
+                    <AssignmentsBox></AssignmentsBox>
                 </div>
             </div>
             <div className='grades-container'>
