@@ -1,6 +1,7 @@
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import ShopButton from '../components/ShopButton'
+import AssignmentsBox from '../components/AssignmentsBox'
 
 
 function Home() {
@@ -8,7 +9,9 @@ function Home() {
     return (
         <>
             //Assignment Container
-            <div className='assignments-container'></div>
+            <div className='assignments-container'>
+                <AssignmentsBox></AssignmentsBox>
+            </div>
             //Grades Container
             <div className='grades-container'>
                 <h2>Grades</h2>
