@@ -1,0 +1,60 @@
+.grades-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    border: solid;
+  }
+/* h2 {
+    text-align: center;
+    width: 100%;
+    line-height: 1.1px;
+}
+h3 {
+    
+    line-height: 1.1px;
+} */
+.course {
+    text-align: center;
+    place-items: center;
+}
+#senior-design {
+    float: left;
+    width: 25%;
+    height: 100px;
+}
+#ui {
+    float: left;
+    width: 50%;
+    height: 100px;
+}
+#computer-graphics {
+    float: right;
+    width: 25%;
+    height: 100px;
+}
+
+.assignments-container {
+    position: fixed;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 200px;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.shop-container {
+    position: fixed;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 200px;
+    border-top: solid;
+    border-bottom: solid;
+}
