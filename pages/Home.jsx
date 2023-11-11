@@ -30,13 +30,13 @@ function Home() {
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
                             <CircularProgressbar value={70} text="70%"/>
                         </div>
-                        <p>UI</p>
+                        <Link to={`/courses/ui`}><p>UI</p></Link>
                     </div>
                     <div className='course' id='computer-graphics'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
                             <CircularProgressbar value={50} text="50%" />
                         </div>
-                        <p>Computer Graphics</p>
+                        <Link to={`/courses/computer-graphics`}><p>Computer Graphics</p></Link>
                     </div>
                 </div>
             </div>

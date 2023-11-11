@@ -1,4 +1,4 @@
-function Senior_Design() {
+function SDSyllabus() {
 
     return (
         <>
@@ -45,4 +45,4 @@ function Senior_Design() {
     )
 }
     
-export default Senior_Design
+export default SDSyllabus
