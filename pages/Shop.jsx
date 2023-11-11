@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Item from './Item';
-import Balance from './Balance';
+import Item from '../components/Item';
+import Balance from '../components/Balance';
 import './Shop.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCarSide, faArrowLeft } from '@fortawesome/free-solid-svg-icons';

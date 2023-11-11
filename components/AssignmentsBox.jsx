@@ -16,7 +16,7 @@ class AssignmentsBox extends React.Component{
         return(
             <>
                 <div className="card w-50">
-                    <Link to="/pages/Assignments" className="card-header">
+                    <Link to="assignments" className="card-header">
                         Upcoming Assignments
                     </Link>
                     <div className="card-body">

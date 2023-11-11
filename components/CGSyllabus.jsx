@@ -1,8 +1,10 @@
-function Computer_Graphics() {
+function CGSyllabus() {
 
     return (
         <>
+            <br></br>
             <h2>Computer Graphics</h2>
+            <br></br>
             <p>Class times: Mon, Wed, Fri 4:30-5:20pm,</p>
 
             <p>Location: Baldwin 661</p>
@@ -49,4 +51,4 @@ function Computer_Graphics() {
     )
 }
 
-export default Computer_Graphics
+export default CGSyllabus
