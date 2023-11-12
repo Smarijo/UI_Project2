@@ -43,8 +43,8 @@ function Main() {
             </div>
             <div className='shop-container'>
                 <div className='text-center'>
-                    <br>
-                    </br><h2>points</h2>
+                    <br></br>
+                    <h2>points</h2>
                     <br></br>
                     <ShopButton></ShopButton>
                 </div>
