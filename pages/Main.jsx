@@ -1,13 +1,14 @@
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import ShopButton from '../components/ShopButton'
-import '/pages/Home.css';
+import '/pages/Main.css';
+import '/pages/Shop.css'
 import { Link } from 'react-router-dom';
 import AssignmentsBox from '../components/AssignmentsBox'
 
 
 
-function Home() {
+function Main() {
 
     return (
         <>
@@ -54,4 +55,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Main
