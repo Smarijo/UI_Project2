@@ -35,6 +35,9 @@ function App() {
           <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/turnIn" element={<TurnIn />} />
+          <Route path="/courses/:course/assignments/:assignment" element={<TurnIn />} />
+          <Route path="/turnIn" element={<TurnIn />} />
+          <Route path="/race" element={<Race />} />
         </Routes>
       </BrowserRouter>
     </div>
