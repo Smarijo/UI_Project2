@@ -8,10 +8,22 @@ function Assignments(){
     const params = useParams();
     const courseName = params.course;
 
+    let includedSidebar = <></>
+
+    if(courseName != "all"){
+        includedSidebar = 
+        <div className="Home" id="outer-container">
+            <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+        </div>
+    }
+
     return(
         <>
-            <h2 className="ps-2">Assignments</h2>
-            <GetAssignmentTables params={courseName}></GetAssignmentTables>
+            {includedSidebar}
+            <div className="ms-5">
+                <h2 className="ms-5">Assignments</h2>
+                <GetAssignmentTables params={courseName}></GetAssignmentTables>
+            </div>
         </>
     )
 }
@@ -26,7 +38,15 @@ function GetAssignmentTables(courseName)
         keys = Object.keys(jsonRaw);
     }
     else{
-        keys = [courseName["params"]];
+        if(courseName["params"] == "ui"){
+            keys = ["UI"];
+        }
+        if(courseName["params"] == "senior-design"){
+            keys = ["Senior Design"];
+        }
+        if(courseName["params"] == "computer-graphics"){
+            keys = ["Computer Graphics"]
+        }
     }
 
     let tables = [];
@@ -51,7 +71,7 @@ function GetAssignmentTables(courseName)
             </div>
         )
     }
-    return(<div className="px-2">{tables}</div>)
+    return(<div className="ms-5">{tables}</div>)
 }
 
 function GetAssignmentsTableBody(key)
