@@ -1,4 +1,3 @@
-import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import './Sidebar.css';
 import { useParams } from 'react-router-dom';
