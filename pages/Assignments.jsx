@@ -2,7 +2,7 @@ import React from "react"
 import assignmentsJson from '../src/assignments.json';
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
-
+import Sidebar from "../components/Sidebar";
 
 function Assignments(){
     const params = useParams();
@@ -14,7 +14,6 @@ function Assignments(){
             <GetAssignmentTables params={courseName}></GetAssignmentTables>
         </>
     )
-    
 }
 
 function GetAssignmentTables(courseName)
