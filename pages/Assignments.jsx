@@ -1,27 +1,34 @@
 import React from "react"
 import assignmentsJson from '../src/assignments.json';
+import { Link } from "react-router-dom";
+import { useParams } from 'react-router-dom';
 
-class Assignments extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-        };
-    }
 
-    render(){
-        return(
-            <>
-                <h2 className="ps-2">Assignments</h2>
-                <GetAssignmentTables></GetAssignmentTables>
-            </>
-        )
-    }
+function Assignments(){
+    const params = useParams();
+    const courseName = params.course;
+
+    return(
+        <>
+            <h2 className="ps-2">Assignments</h2>
+            <GetAssignmentTables params={courseName}></GetAssignmentTables>
+        </>
+    )
+    
 }
 
-function GetAssignmentTables()
+function GetAssignmentTables(courseName)
 {
     let jsonRaw = assignmentsJson;
-    let keys = Object.keys(jsonRaw);
+    
+    let keys = [];
+
+    if(courseName["params"] == "all"){
+        keys = Object.keys(jsonRaw);
+    }
+    else{
+        keys = [courseName["params"]];
+    }
 
     let tables = [];
     for(let k = 0; k < keys.length; k++)
@@ -37,6 +44,7 @@ function GetAssignmentTables()
                             <th>Date Due</th>
                             <th>Points</th>
                             <th>Score (if applicable)</th>
+                            <th></th>
                         </tr>
                     </thead>
                     {body}
@@ -63,12 +71,14 @@ function GetAssignmentsTableBody(key)
 
     for(let i = 0; i < assignments.length; i++){
         let assignment = assignments[i];
+        let link = "../course-data/" + key + "/assignments/" + assignment["name"]
         items.push(
         <tr>
             <td>{assignment["title"]}</td>
             <td>{assignment["end_or_due"]}</td>
             <td>{assignment["points"]}</td>
             <td>{assignment["points_earned"]}</td>
+            <td><Link to={"/turnIn"} className="btn btn-primary">Submit Assignment</Link></td>
         </tr>
         )
     }
