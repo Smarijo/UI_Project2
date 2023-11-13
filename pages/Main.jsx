@@ -5,10 +5,16 @@ import '/pages/Main.css';
 import '/pages/Shop.css'
 import { Link } from 'react-router-dom';
 import AssignmentsBox from '../components/AssignmentsBox'
+import GradesCalculator from '../components/GradesCalculator'
+import PointsCalculator from '../components/PointsCalculator';
 
 
 
 function Main() {
+
+    var SDGrade = GradesCalculator('senior-design')
+    var UIGrade = GradesCalculator('ui')
+    var CGGrade = GradesCalculator('computer-graphics')
 
     return (
         <>
@@ -23,19 +29,19 @@ function Main() {
                     <br></br>
                     <div className='course' id='senior-design'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
-                            <CircularProgressbar value={66} text="66%"/>
+                            <CircularProgressbar value={SDGrade} text={SDGrade + "%"}/>
                         </div>
                         <Link to={`/courses/senior-design`}><p>Senior Design</p></Link>
                     </div>
                     <div className='course' id='ui'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
-                            <CircularProgressbar value={70} text="70%"/>
+                        <CircularProgressbar value={UIGrade} text={UIGrade + "%"}/>
                         </div>
                         <Link to={`/courses/ui`}><p>UI</p></Link>
                     </div>
                     <div className='course' id='computer-graphics'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
-                            <CircularProgressbar value={50} text="50%" />
+                        <CircularProgressbar value={CGGrade} text={CGGrade + "%"}/>
                         </div>
                         <Link to={`/courses/computer-graphics`}><p>Computer Graphics</p></Link>
                     </div>
@@ -44,7 +50,7 @@ function Main() {
             <div className='shop-container'>
                 <div className='text-center'>
                     <br></br>
-                    <h2>points</h2>
+                    <h2><PointsCalculator /> points</h2>
                     <br></br>
                     <ShopButton></ShopButton>
                 </div>
