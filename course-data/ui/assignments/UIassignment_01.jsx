@@ -1,4 +1,5 @@
-<h3 data-pm-slice="1 1 []" data-en-clipboard="true"><strong>Submit:</strong></h3>
+function UIAssignment_01()
+{return(<><h3 data-pm-slice="1 1 []" data-en-clipboard="true"><strong>Submit:</strong></h3>
 <div data-pm-slice="1 1 []" data-en-clipboard="true"><strong>1. Link to your personal webpage (requirements described below)</strong></div>
 <div data-pm-slice="1 1 []" data-en-clipboard="true"><strong>2. Link to your github page</strong></div>
 <div data-pm-slice="1 1 []" data-en-clipboard="true"><strong>3. Book of faces entry</strong></div>
@@ -29,4 +30,6 @@
 <div><img src="https://uc.instructure.com/courses/1546040/files/158151965/preview" alt="Screen Shot 2022-08-21 at 6.53.59 PM.png" data-api-endpoint="https://uc.instructure.com/api/v1/courses/1546040/files/158151965" data-api-returntype="File" /></div>
 <h3><strong>5. Complete this Google form</strong>-</h3>
 <p>it is anonymous, but I want to get a sense of your experiences and background with UI design:</p>
-<div><a href="https://forms.gle/75dqvRhvxeyXj5Gg7" target="_blank" rel="noopener">https://forms.gle/3oMkxN7HhhPZ3sFi7</a></div>
+<div><a href="https://forms.gle/75dqvRhvxeyXj5Gg7" target="_blank" rel="noopener">https://forms.gle/3oMkxN7HhhPZ3sFi7</a></div></>)}
+
+export default UIAssignment_01
