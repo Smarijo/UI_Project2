@@ -139,15 +139,13 @@ function Modules() {
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header><h3>Module 1</h3></Accordion.Header>
+                            <Accordion.Header><h3>Module 1 - Introduction to Usability</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/ui/presentations/01-01-intro.pptx">01-01-intro.pptx</a></li>
-                                    <li className="list-group-item"><a href="/ui/presentations/01-02-usabilitiy.pptx">01-02-usabilitiy.pptx</a></li>
-                                    <li className="list-group-item"><a href="/ui/presentations/01-03-norman-principals-discoverability.pptx">01-03-norman-principals-discoverability.pptx</a></li>
-                                    <li className="list-group-item"><a href="/ui/presentations/01-04-the-user-p1.pptx">01-04-the-user-p1.pptx</a></li>
-                                    <li className="list-group-item"><a href="/ui/presentations/01-05-the-user-p2.pptx">01-05-the-user-p2.pptx</a></li>
-                                    <li className="list-group-item"><a href="/ui/presentations/01-06-the-user-p3.pptx">01-06-the-user-p3.pptx</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-01-intro.pptx">Monday Lecture: Intro (Slides)</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-02-usabilitiy.pptx">Wednesday lecture: Usability (Slides)</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-03-norman-principals-discoverability.pptx">Friday Lecture: Norman Principals (Slides)</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-06-the-user-p3.pptx">Assignment 1 - Getting to know you</a></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -155,9 +153,26 @@ function Modules() {
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header><h3>Module 3</h3></Accordion.Header>
+                            <Accordion.Header><h3>Module 2 - Human Centered Design</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
+                                    <li className="list-group-item"><a href="/ui/presentations/01-04-the-user-p1.pptx">Monday lecture: Human Centered Design 1 (Slides)</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-05-the-user-p2.pptx">Wednesday lecture: Human Centered Design 2 (Slides)</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/01-06-the-user-p3.pptx">Friday lecture: Human Centered Design 3 (Slides)</a></li>
+                                </ul>
+                        </Accordion.Body>
+                        </Accordion.Item> 
+                    </Accordion>  
+                    <br></br>
+                    <Accordion defaultActiveKey={['1']} alwaysOpen>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header><h3>Module 3 - Sketching part 1</h3></Accordion.Header>
+                            <Accordion.Body>
+                                <ul className="list-group list-group-flush">
+                                    <li className="list-group-item"><a href="/ui/pages/project1.html">03-01-sketching-p1.pptx</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/03-02-sketching-p2.pptx">03-02-sketching-p2.pptx</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/03-01-sketching-p1.pptx">03-01-sketching-p1.pptx</a></li>
+                                    <li className="list-group-item"><a href="/ui/presentations/03-02-sketching-p2.pptx">03-02-sketching-p2.pptx</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/03-01-sketching-p1.pptx">03-01-sketching-p1.pptx</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/03-02-sketching-p2.pptx">03-02-sketching-p2.pptx</a></li>
                                 </ul>
@@ -249,8 +264,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 1</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/01.pptx">01.pptx</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_01.html">Assignment 1</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/01.pptx">Module 1 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_01.html">First assignment</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -261,8 +276,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 2</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/02.pptx">02.pptx</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_02.html">Assignment 2</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/02.pptx">Module 2 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_02.html">User profiles</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -273,8 +288,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 3</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/03.pptx">03.pptx</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_03.html">Assignment 3</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/03.pptx">Module 3 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_03.html">Tasks</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -285,8 +300,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 4</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/04.pptx">04.pptx</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_04.html">Assignment 4</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/04.pptx">Module 4 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_04.html">Timeline</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -297,7 +312,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 5</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/05.pptx">05.pptx</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/05.pptx">Module 5 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_05.html">Project status update</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -308,7 +324,8 @@ function Modules() {
                             <Accordion.Header><h3>Module 6</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/06.pptx">06.pptx</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/06.pptx">Module 6 Slides</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_06.html">Project status update</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -319,7 +336,7 @@ function Modules() {
                             <Accordion.Header><h3>Module 7</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/07.pptx">07.pptx</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/07.pptx">Module 7 Slides</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -330,7 +347,7 @@ function Modules() {
                             <Accordion.Header><h3>Module 8</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/senior_design/presentations/08.pptx">08.pptx</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/presentations/08.pptx">Module 8 Slides</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
