@@ -19,13 +19,13 @@ class AssignmentsBox extends React.Component{
                         Upcoming Assignments
                     </Link>
                     <div className="list-group list-group-flush">
-                        <div className="list-group-item overflow-auto" style={{height: 350 }}>
+                        <div className="list-group-item overflow-auto" style={{height: 340 }}>
                             <GetUpcomingAssignments></GetUpcomingAssignments>
                         </div>
                         <Link to="assignments" className="card-header">
                             Recent Assignments
                         </Link>
-                        <div className="list-group-item overflow-auto" style={{height:350}}>
+                        <div className="list-group-item overflow-auto" style={{height:340}}>
                             <GetCompletedAssignments></GetCompletedAssignments>
                         </div>
                     </div>
