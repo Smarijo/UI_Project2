@@ -9,3 +9,5 @@ function UI08()
 
 <p>The description for the documentation requirements are available at the project 1 page.  Project 1- Interface to a smart object</p>
 </>)}
+
+export default UI08
