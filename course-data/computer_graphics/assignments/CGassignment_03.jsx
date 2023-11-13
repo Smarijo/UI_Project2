@@ -7,4 +7,4 @@ function CGAssignment_03()
 </ol></>
 )}
 
-export default Assignment_03
+export default CGAssignment_03
