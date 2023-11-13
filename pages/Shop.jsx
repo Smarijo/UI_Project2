@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import Item from '../components/Item';
 import Balance from '../components/Balance';
 import './Shop.css';
@@ -6,15 +7,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCarSide, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { GiCarWheel } from 'react-icons/gi';
 import { PiEngineFill } from 'react-icons/pi';
-import tireImage from './images/black_tire.png';
-import tireImage2 from './images/premium_tire.png';
-import engine1 from './images/engine.png';
-import engine2 from './images/turbo.png';
-import frame1 from './images/standard.png';
-import frame2 from './images/sleek.png';
+import tireImage from '../components/images/black_tire.png';
+import tireImage2 from '../components/images/premium_tire.png';
+import engine1 from '../components/images/engine.png';
+import engine2 from '../components/images/turbo.png';
+import frame1 from '../components/images/standard.png';
+import frame2 from '../components/images/sleek.png';
+import PointsCalculator from '../components/PointsCalculator';
 
 const Shop = () => {
-  const [balance, setBalance] = useState(300); 
+  const [balance, setBalance] = useState(PointsCalculator()); 
   const [purchasedItems, setPurchasedItems] = useState({}); 
 
   const purchaseItem = (itemName, price) => {
@@ -51,10 +53,16 @@ const Shop = () => {
   // Inline style for icons
   const iconStyle = { fontSize: '3em' }; 
 
+  const navigate = useNavigate();
+
+  function handleClick() {
+      navigate("/home");
+  }
+
   return (
     <div className="shop">
       <div className="top-bar">
-        <button className="home-button">
+        <button type="submit" className="home-button" onClick={handleClick}>
           <FontAwesomeIcon icon={faArrowLeft} />
         </button>
         <h1 className="shop-title">Shop</h1>

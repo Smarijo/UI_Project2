@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoins } from '@fortawesome/free-solid-svg-icons';
-import './pages/Shop.css';
+import '../pages/Shop.css';
 
 const Item = ({ item, purchaseItem, statName, isPurchased }) => {
   const stars = Array.from({ length: 3 }, (_, index) => (
