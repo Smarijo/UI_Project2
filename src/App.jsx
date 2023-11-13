@@ -13,6 +13,7 @@ import Files from '/pages/Files'
 import Grades from '/pages/Grades'
 import Modules from '/pages/Modules'
 import Announcements  from "../pages/Announcements";
+import TurnIn from "../pages/TurnIn";
 
 function App() {
 
@@ -24,7 +25,7 @@ function App() {
           <Route index element={<Main />} />
           <Route path="/home" element={<Main />} />
           <Route path="/courses/:course" element={<CourseHome />} />
-          <Route path="/assignments" element={<Assignments />} />
+          <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/courses/:course/zoom" element={<Zoom />} />
           <Route path="/courses/:course/grades" element={<Grades />} />
           <Route path="/courses/:course/files" element={<Files />} />
@@ -32,6 +33,7 @@ function App() {
           <Route path="/courses/:course/announcements" element={<Announcements />} />
           <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/turnIn" element={<TurnIn />} />
         </Routes>
       </BrowserRouter>
     </div>

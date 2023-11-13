@@ -15,14 +15,14 @@ class AssignmentsBox extends React.Component{
         return(
             <>
                 <div className="card">
-                    <Link to="assignments" className="card-header">
+                    <Link to="/courses/all/assignments" className="card-header">
                         Upcoming Assignments
                     </Link>
                     <div className="list-group list-group-flush">
                         <div className="list-group-item overflow-auto" style={{height: 340 }}>
                             <GetUpcomingAssignments></GetUpcomingAssignments>
                         </div>
-                        <Link to="assignments" className="card-header">
+                        <Link to="/courses/all/assignments" className="card-header">
                             Recent Assignments
                         </Link>
                         <div className="list-group-item overflow-auto" style={{height:340}}>
