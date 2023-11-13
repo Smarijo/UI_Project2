@@ -26,7 +26,15 @@ function GetAssignmentTables(courseName)
         keys = Object.keys(jsonRaw);
     }
     else{
-        keys = [courseName["params"]];
+        if(courseName["params"] == "ui"){
+            keys = ["UI"];
+        }
+        if(courseName["params"] == "senior-design"){
+            keys = ["Senior Design"];
+        }
+        if(courseName["params"] == "computer-graphics"){
+            keys = ["Computer Graphics"]
+        }
     }
 
     let tables = [];
