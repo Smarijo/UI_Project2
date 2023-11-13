@@ -58,3 +58,13 @@ h3 {
     border-top: solid;
     border-bottom: solid;
 }
+
+.car-container {
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 540px;
+}

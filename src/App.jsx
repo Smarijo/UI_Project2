@@ -14,6 +14,7 @@ import Grades from '/pages/Grades'
 import Modules from '/pages/Modules'
 import Announcements  from "../pages/Announcements";
 import TurnIn from "../pages/TurnIn";
+import Race from "../pages/race";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/turnIn" element={<TurnIn />} />
+          <Route path="/race" element={<Race />} />
         </Routes>
       </BrowserRouter>
     </div>
