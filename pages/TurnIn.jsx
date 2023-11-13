@@ -143,7 +143,7 @@ function TurnIn(){
                 <input className="form-control"></input>
             </div>
         </form>
-        <Link to={"/courses/" + className.toLowerCase().replace(' ', '-')} className="btn btn-primary">Turn In Assignment</Link>
+        <Link to={"/courses/" + className.toLowerCase().replace(' ', '-') + '/assignments'} className="btn btn-primary">Turn In Assignment</Link>
     </>
     )
 }
