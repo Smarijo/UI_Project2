@@ -1,6 +1,6 @@
 import React from "react"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Assignments from "../pages/Assignments";
+import Assignments from "../pages/AllAssignments";
 
 
 class AssignmentsBox extends React.Component{
@@ -16,7 +16,7 @@ class AssignmentsBox extends React.Component{
         return(
             <>
                 <div className="card w-50">
-                    <Link to="assignments" className="card-header">
+                    <Link to="/assignments" className="card-header">
                         Upcoming Assignments
                     </Link>
                     <div className="card-body">

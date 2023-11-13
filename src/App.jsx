@@ -6,13 +6,14 @@ import CourseHome from '/pages/CourseHome'
 // import UI from '/pages/UI'
 // import ComputerGraphics from '/pages/ComputerGraphics'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Assignments from '/pages/Assignments'
+import Assignments from '/pages/AllAssignments'
 import Shop from '/pages/Shop'
 import Zoom from '../components/Zoom'
 import Files from '/pages/Files'
 import Grades from '/pages/Grades'
 import Modules from '/pages/Modules'
 import Announcements  from "../pages/Announcements";
+import CourseAssignments from "../pages/CourseAssignments";
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
           <Route path="/courses/:course/files" element={<Files />} />
           <Route path="/courses/:course/modules" element={<Modules />} />
           <Route path="/courses/:course/announcements" element={<Announcements />} />
+          <Route path="/courses/:course/assignments" element={<CourseAssignments />} />
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
