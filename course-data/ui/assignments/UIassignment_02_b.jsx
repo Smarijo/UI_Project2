@@ -1,4 +1,5 @@
-<h1>Sketching the interface</h1>
+function UIAssignment_02_b()
+{return(<><h1>Sketching the interface</h1>
 <h2>Part 1</h2>
 <ul>
     <li>Suppose we have opened the photo sharing app</li>
@@ -42,3 +43,4 @@
 <p>&nbsp;</p>
 <p>Text descriptions can elaborate on how the elements on your interface would work.&nbsp;&nbsp;</p>
 <p><img src="https://uc.instructure.com/courses/1546040/files/158875573/preview" alt="Picture2.png" data-api-endpoint="https://uc.instructure.com/api/v1/courses/1546040/files/158875573" data-api-returntype="File" /></p>
+</>)}
