@@ -242,7 +242,7 @@ function Modules() {
                 </div>
                 <div style={{ left: '0', right: '0', marginLeft: 'auto', marginRight: 'auto', width: '75%' }}>
                     <br></br>
-                    <h1>Files</h1>
+                    <h1>Modules</h1>
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
                         <Accordion.Item eventKey="0">

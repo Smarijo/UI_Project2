@@ -1,5 +1,6 @@
 import React from "react"
 import assignmentsJson from '../src/assignments.json';
+import Sidebar from "../components/Sidebar";
 
 class Assignments extends React.Component{
     constructor(props){
@@ -11,8 +12,14 @@ class Assignments extends React.Component{
     render(){
         return(
             <>
-                <h2 className="ps-2">Assignments</h2>
-                <GetAssignmentTables></GetAssignmentTables>
+                <div className="Home" id="outer-container">
+                    <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
+                </div>
+                <div style={{ left: '0', right: '0', marginLeft: 'auto', marginRight: 'auto', width: '75%' }}>
+                    <br></br>
+                    <h2 className="ps-2">Assignments</h2>
+                    <GetAssignmentTables></GetAssignmentTables>
+                </div>
             </>
         )
     }

@@ -2,7 +2,18 @@ import values from '../src/assignments.json';
 
 function GradesCalculator(courseName) {
 
-    var assignments = values[courseName];
+    var course = ""
+
+    if (courseName == "ui") {
+        course = "UI"
+    }
+    else if (courseName == "senior-design") {
+        course = "Senior Design"
+    }
+    else if (courseName == "computer-graphics") {
+        course = "Computer Graphics"
+    }
+    var assignments = values[course];
     var totalPointsParticipation = 0;
     var earnedPointsParticipation = 0;
     var totalPointsAssignment = 0;
