@@ -1,18 +1,22 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden; /* Prevent page scrollbars */
+}
+
+.race-container{
+  background-color: #222;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
 }
 
 .race-track {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh; /* Fills the height of the viewport */
   background-color: transparent;
   overflow: hidden;
-  z-index: 1; /* Ensure the race track is below the leaderboard */
 }
 
 @keyframes driveHorizontal {
@@ -67,30 +71,18 @@ body {
 }
 
 
-
-.leaderboard-container {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 300px; /* Adjust the leaderboard's width as needed */
-  height: auto; /* Fills the height of the viewport */
-  background-color: transparent;
-  padding: 20px;
-  overflow-y: auto; /* Add scrolling if the leaderboard content exceeds the height */
-  z-index: 2; /* Ensure the leaderboard is above the race track */
-}
-
 button {
   margin-top: 10px;
   margin-bottom: 10px;
-  z-index: -1;
   background-color: orange;
 }
 
 .level-buttons {
+  position: relative;
   text-align: center;
   background-color: gray;
   width: 50px;
+  z-index: 10;
 }
 
 .video-background {
@@ -108,7 +100,6 @@ button {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1; /* Place the video behind other elements */
 }
 
 .popup {

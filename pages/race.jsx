@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import carImage from '../components/images/car.png';
+import carImage2 from '../components/images/car2.png';
 import './RaceTrack.css';
 
 const Race = () => {
@@ -27,7 +28,7 @@ const Race = () => {
   };
 
   return (
-    <div>
+    <div class="race-container">
       <RaceTrack playerTime={playerTime} onCarFinish={handleFinish} />
       {raceOutcome && (
         <RaceOutcomePopup outcome={raceOutcome} onReset={resetRaceOutcome} />
@@ -85,13 +86,13 @@ const RaceTrack = ({ playerTime, onCarFinish }) => {
         style={{ animationDuration: `${playerTime}s` }}
       />
       <img
-        src={carImage}
+        src={carImage2}
         alt="Opponent Car 1"
         className={`opponent-car1 ${isRacing ? 'racing' : ''}`}
         style={{ animationDuration: `${opponent1Time}s` }}
       />
       <img
-        src={carImage}
+        src={carImage2}
         alt="Opponent Car 2"
         className={`opponent-car2 ${isRacing ? 'racing' : ''}`}
         style={{ animationDuration: `${opponent2Time}s` }}
