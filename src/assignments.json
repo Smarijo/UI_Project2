@@ -1,5 +1,5 @@
 {
-    "senior-design": [
+    "Senior Design": [
         {
             "name": "syllabus.html",
             "folder": "course_info",
@@ -323,7 +323,7 @@
             "points_earned": "na"
           }
     ],
-    "computer-graphics": [
+    "Computer Graphics": [
         {
             "name": "syllabus.html",
             "folder": "course_info",
@@ -1095,7 +1095,7 @@
             "points_earned": "na"
           }
         ],
-    "ui": [
+    "UI": [
         {
             "name": "syllabus.html",
             "folder": "course_info",

@@ -30,6 +30,7 @@ function App() {
           <Route path="/courses/:course/files" element={<Files />} />
           <Route path="/courses/:course/modules" element={<Modules />} />
           <Route path="/courses/:course/announcements" element={<Announcements />} />
+          <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
         </Routes>
       </BrowserRouter>
