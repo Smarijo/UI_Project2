@@ -52,7 +52,7 @@
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 10; /* Adjust z-index as needed */
+    z-index: -1; /* Adjust z-index as needed */
 }
 
 .car-image-center img {
@@ -105,8 +105,6 @@
     color: #fff; /* Match Shop text color */
     font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
     border-color: #f80; /* Match Shop border color */
-}
-
 }
 
 .car-container {
