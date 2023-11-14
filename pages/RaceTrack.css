@@ -70,12 +70,50 @@ body {
   animation-name: driveHorizontal;
 }
 
+.turnButton {
+ 
+
+  background-color: #f80; /* Orange background to match Shop style */
+  color: #202020; /* Dark text color */
+  border: none; /* No border for the button */
+  font-size: 15px; /* Font size */
+  padding: 5px 10px; /* Padding around the text */
+  border-radius: 20px; /* Rounded corners */
+  font-family: 'Racing Sans One', sans-serif; /* Consistent font style */
+  cursor: pointer; /* Cursor changes to pointer on hover */
+}
 
 button {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background-color: orange;
+  
+  margin-bottom: 30px;
+  
+  background-color: #f80; /* Orange background to match Shop style */
+  color: #202020; /* Dark text color */
+  border: none; /* No border for the button */
+  font-size: 20px; /* Font size */
+  padding: 15px 60px; /* Padding around the text */
+  border-radius: 30px; /* Rounded corners */
+  font-family: 'Racing Sans One', sans-serif; /* Consistent font style */
+  cursor: pointer; /* Cursor changes to pointer on hover */
 }
+
+.buttonRace {
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  background-color: #f80; /* Orange background */
+  color: #202020; /* Dark text color */
+  border: 3px solid #333; /* Dark border */
+  font-size: 40px;
+  padding: 15px 150px;
+  border-radius: 20px; /* More rounded corners */
+  font-family: 'Racing Sans One', sans-serif;
+  cursor: pointer;
+  margin-bottom: 40px;
+  margin-left: -10px;
+}
+
 
 .level-buttons {
   position: relative;

@@ -27,6 +27,7 @@ import CGAssignment_06 from "../course-data/computer_graphics/assignments/CGassi
 import CGAssignment_07 from "../course-data/computer_graphics/assignments/CGassignment_07";
 import CGAssignment_08 from "../course-data/computer_graphics/assignments/CGassignment_08";
 import CGAssignment_09 from "../course-data/computer_graphics/assignments/CGassignment_09";
+import '../pages/RaceTrack.css'
 
 
 function TurnIn(){
@@ -143,7 +144,7 @@ function TurnIn(){
                 <input className="form-control"></input>
             </div>
         </form>
-        <Link to={"/courses/" + className.toLowerCase().replace(' ', '-') + '/assignments'} className="btn btn-primary">Turn In Assignment</Link>
+        <Link to={"/courses/" + className.toLowerCase().replace(' ', '-') + '/assignments'} className="turnButton">Turn In Assignment</Link>
     </>
     )
 }

@@ -5,14 +5,14 @@ import ShopButton from '../components/ShopButton';
 import '/pages/Main.css';
 import '/pages/Shop.css';
 import { Link } from 'react-router-dom';
-
 import AssignmentsBox from '../components/AssignmentsBox';
 import GradesCalculator from '../components/GradesCalculator';
 import { useBalance } from '../components/BalanceContext';
-import GradesCalculator from '../components/GradesCalculator'
 import PointsCalculator from '../components/PointsCalculator';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Add this line
+import { faCoins } from '@fortawesome/free-solid-svg-icons';
 import RaceButton from '../components/RaceButton';
-
+import carImage from '../components/images/maincar.png'
 
 function Main() {
     const SDGrade = GradesCalculator('senior-design');
@@ -42,7 +42,7 @@ function Main() {
         <>
             <div className='assignments-container'>
                 <div className='text-center'>
-                    <AssignmentsBox></AssignmentsBox>
+                    <AssignmentsBox />
                 </div>
             </div>
             <div className='grades-container'>
@@ -56,10 +56,11 @@ function Main() {
                                 text={`${SDGrade}%`}
                                 styles={buildStyles({
                                     pathColor: progressBarColor(SDGrade),
+                                    textColor: progressBarColor(SDGrade),
                                 })}
                             />
                         </div>
-                        <Link to={`/courses/senior-design`}><p>Senior Design</p></Link>
+                        <Link to={`/courses/senior-design`}><p style={{ color: '#fff' }}>Senior Design</p></Link>
                     </div>
                     <div className='course' id='ui'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
@@ -68,10 +69,11 @@ function Main() {
                                 text={`${UIGrade}%`}
                                 styles={buildStyles({
                                     pathColor: progressBarColor(UIGrade),
+                                    textColor: progressBarColor(UIGrade),
                                 })}
                             />
                         </div>
-                        <Link to={`/courses/ui`}><p>UI</p></Link>
+                        <Link to={`/courses/ui`}><p style={{ color: '#fff' }}>UI</p></Link>
                     </div>
                     <div className='course' id='computer-graphics'>
                         <div style={{ width: 80, height: 80, display: 'inline-block' }}>
@@ -80,22 +82,25 @@ function Main() {
                                 text={`${CGGrade}%`}
                                 styles={buildStyles({
                                     pathColor: progressBarColor(CGGrade),
+                                    textColor: progressBarColor(CGGrade),
                                 })}
                             />
                         </div>
-                        <Link to={`/courses/computer-graphics`}><p>Computer Graphics</p></Link>
+                        <Link to={`/courses/computer-graphics`}><p style={{ color: '#fff' }}>Computer Graphics</p></Link>
                     </div>
                 </div>
             </div>
             <div className='shop-container'>
                 <div className='text-center'>
                     <br></br>
-                    <h2>{balance} points</h2>
+                    <h2>
+                    <FontAwesomeIcon icon={faCoins} style={{ color: 'gold' }} /> {balance} 
+</h2>
+
                     <br></br>
-                    <ShopButton></ShopButton>
+                    <ShopButton />
                 </div>
             </div>
-
             <div className='car-stats-container'>
                 <div className='text-center'>
                     <h2>Car Stats</h2>
@@ -110,10 +115,12 @@ function Main() {
                     </div>
                 </div>
             </div>
-
-            <div className='car-container'><RaceButton></RaceButton></div>
-            
-
+            <div className='car-container'>
+                <RaceButton />
+            </div>
+            <div className="car-image-center">
+                <img src={carImage} alt="Car" />
+            </div>
         </>
     );
 }

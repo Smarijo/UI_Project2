@@ -19,7 +19,7 @@ function Modules() {
                     <h1>Modules</h1>
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
-                        <Accordion.Item eventKey="0">
+                        <Accordion.Item eventKey="0" className="bg-dark text-white">
                             <Accordion.Header><h3>Module 1</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
