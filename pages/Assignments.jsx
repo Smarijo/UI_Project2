@@ -82,6 +82,7 @@ function GetAssignmentsTableBody(key)
 
     for(let j = 0; j < assignmentsForClass.length; j++){
         if(assignmentsForClass[j]["type"] == "assignment"){
+            assignmentsForClass[j]["className"] = key;
             assignments.push(assignmentsForClass[j]);
         }
     }
@@ -97,7 +98,7 @@ function GetAssignmentsTableBody(key)
             <td>{assignment["end_or_due"]}</td>
             <td>{assignment["points"]}</td>
             <td>{assignment["points_earned"]}</td>
-            <td><Link to={"/turnIn"} className="btn btn-primary">Submit Assignment</Link></td>
+            <td><Link to={"/courses/" + assignment["className"] + "/assignments/" + assignment["name"]} className="btn btn-primary">Submit Assignment</Link></td>
         </tr>
         )
     }

@@ -23,7 +23,7 @@ class AssignmentsBox extends React.Component{
                             <GetUpcomingAssignments></GetUpcomingAssignments>
                         </div>
                         <Link to="/courses/all/assignments" className="card-header">
-                            Recent Assignments
+                            Past Assignments
                         </Link>
                         <div className="list-group-item overflow-auto" style={{height:340}}>
                             <GetCompletedAssignments></GetCompletedAssignments>
