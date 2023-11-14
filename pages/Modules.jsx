@@ -145,7 +145,7 @@ function Modules() {
                                     <li className="list-group-item"><a href="/ui/presentations/01-01-intro.pptx">Monday Lecture: Intro (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/01-02-usability.pptx">Wednesday lecture: Usability (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/01-03-norman-principals-discoverability.pptx">Friday Lecture: Norman Principals (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_01.html">Assignment 1 - Getting to know you</a></li>
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_01.jsx">Assignment 1 - Getting to know you</a></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -169,15 +169,15 @@ function Modules() {
                             <Accordion.Header><h3>Module 3 - Sketching part 1</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
-                                    <li className="list-group-item"><a href="/ui/pages/project1.html">Smart Object</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/project1.jsx">Smart Object</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/03-01-sketching-p1.pptx">Sketching for Brainstorming (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_01.html">Sketching practice 1</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_02.html">Sketching practice 2</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_03.html">Sketching practice 3</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_01.jsx">Sketching practice 1</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_02.jsx">Sketching practice 2</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_03.jsx">Sketching practice 3</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/03-02-sketching-p2.pptx">Sketching the Interface (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_04.html">Sketching the Interface practice</a></li>
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_02.html">Assignment 2 - Sketching practice</a></li>
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_03.html">Assignment 3 - Project 1 check in</a></li>                                  
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_04.jsx">Sketching the Interface practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_02.jsx">Assignment 2 - Sketching practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_03.jsx">Assignment 3 - Project 1 check in</a></li>                                  
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -189,15 +189,15 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/ui/presentations/04-01-web-p1.pptx">The Web (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/tutorial0.html">The Web tutorial</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/tutorial1.html">HTML tutorial</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_05.html">HTML practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/tutorial0.jsx">The Web tutorial</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/tutorial1.jsx">HTML tutorial</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_05.jsx">HTML practice</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/04-02.pptx">HTML (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/tutorial2.html">CSS tutorial</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_06.html">HTML practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/tutorial2.jsx">CSS tutorial</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_06.jsx">HTML practice</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/04-02-html-css.pptx">CSS (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_07.html">HTML practice</a></li>
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_04.html">Assignment 4 - Html and CSS practice</a></li>                                  
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_07.jsx">HTML practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_04.jsx">Assignment 4 - Html and CSS practice</a></li>                                  
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -209,15 +209,15 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/ui/presentations/05-01-javascript-p1.pptx">Javascript (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/tutorial3.html">Web server</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/tutorial4.html">Javascript part 1</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_08.html">Javascript practice</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/tutorial3.jsx">Web server</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/tutorial4.jsx">Javascript part 1</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_08.jsx">Javascript practice</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/05-02-javascript-p2.pptx">Javascript part 2 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_09.html">Javascript practice 2</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_09.jsx">Javascript practice 2</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/05-03-javascript-p3.pptx">Javascript part 3 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_10.html">Javascript practice 3</a></li>
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_04.html">Assignment 5 - Javascript practice</a></li>                                  
-                                    <li className="list-group-item"><a href="/ui/assignments/assignment_04.html">Assignment 6 - Which smart object project 1</a></li>                                  
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_10.jsx">Javascript practice 3</a></li>
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_04.jsx">Assignment 5 - Javascript practice</a></li>                                  
+                                    <li className="list-group-item"><a href="/ui/assignments/UIassignment_04.jsx">Assignment 6 - Which smart object project 1</a></li>                                  
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -230,9 +230,9 @@ function Modules() {
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/ui/presentations/06-01-design-principles-p1.pptx">Design 1 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/06-02-design-principles-p2.pptx">Design 2 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_11.html">Layout</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_11.jsx">Layout</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/06-03-design-principles-color.pptx">Design 3 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/pages/inclass_12.html">Color</a></li>
+                                    <li className="list-group-item"><a href="/ui/pages/inclass_12.jsx">Color</a></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -247,8 +247,8 @@ function Modules() {
                                     <li className="list-group-item"><a href="/ui/presentations/07-03-people.pptx">People 2 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/08-02-people.pptx">People 3 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/08-03-people.pptx">People 4 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/ui/project/07.html">Project 1 implementation</a></li>
-                                    <li className="list-group-item"><a href="/ui/project/08.html">Project 1 documentation</a></li>
+                                    <li className="list-group-item"><a href="/ui/project/07.jsx">Project 1 implementation</a></li>
+                                    <li className="list-group-item"><a href="/ui/project/08.jsx">Project 1 documentation</a></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -298,7 +298,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/03.pptx">Intial project design (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_01.html">Assignment 1 - First assignment</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_01.jsx">Assignment 1 - First assignment</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -310,7 +310,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/04.pptx">User profiles (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_02.html">Assignment 2 - User profiles</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_02.jsx">Assignment 2 - User profiles</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -322,7 +322,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/05.pptx">Tasks (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_03.html">Assignment 3 - Tasks</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_03.jsx">Assignment 3 - Tasks</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -334,7 +334,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/06.pptx">Timeline (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_04.html">Assignment 4 - Timeline</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_04.jsx">Assignment 4 - Timeline</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -346,7 +346,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/07.pptx">Module 7 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_05.html">Assignment 5 - Project status update</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_05.jsx">Assignment 5 - Project status update</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
@@ -358,7 +358,7 @@ function Modules() {
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/senior_design/presentations/08.pptx">Module 8 (Slides)</a></li>
-                                    <li className="list-group-item"><a href="/senior_design/assignments/assignment_06.html">Assignment 6 - Project status update</a></li>
+                                    <li className="list-group-item"><a href="/senior_design/SDassignments/assignment_06.jsx">Assignment 6 - Project status update</a></li>
                                 </ul>
                             </Accordion.Body>
                         </Accordion.Item>
