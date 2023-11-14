@@ -3,6 +3,8 @@ import assignmentsJson from '../src/assignments.json';
 import { Link } from "react-router-dom";
 import { useParams } from 'react-router-dom';
 import Sidebar from "../components/Sidebar";
+import '../pages/Assignments.css'
+
 
 function Assignments(){
     const params = useParams();
@@ -56,7 +58,7 @@ function GetAssignmentTables(courseName)
         tables.push(
             <div>
                 <h3>{keys[k]}</h3>
-                <table className="table">
+                <table className="table table-dark table-striped" >
                     <thead>
                         <tr>
                             <th>Assignment Name</th>

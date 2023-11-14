@@ -13,6 +13,7 @@
     color: #fff; /* Match Shop text color */
     font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
     border-color: #f80; /* Match Shop border color */
+    
 }
 
 .course {
@@ -33,23 +34,46 @@
 
 .car-stats-container {
     position: fixed;
-    bottom: 20px; 
+    bottom: 40px; 
     right: 20px; 
     background-color: #202020; /* Match Shop background */
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Increased padding */
+    border-radius: 10px; /* Adjusted border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjusted shadow for larger size */
     color: #fff; /* Match Shop text color */
     font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
-    border: 2px solid #f80; /* Orange border */
+    border: 3px solid #f80; /* Thicker border for larger size */
+    width: 400px; /* Increased width */
+    height: 300px; /* Increased height */
+    font-size: 1.5em; /* Larger text */
+}
+.car-image-center {
+    position: fixed; /* or absolute, depending on your layout */
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10; /* Adjust z-index as needed */
+}
+
+.car-image-center img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: 600px;
+    /* You can set a max-height or width if required */
 }
 
 .car-stats-container .star {
+    font-size: 1.5em; /* Larger stars */
     color: #FFD700; /* Yellow stars */
 }
 
 .car-stats-container .star-inactive {
+    font-size: 1.5em; /* Larger stars for inactive */
     color: grey; /* Inactive stars color */
+}
+
+.car-stats-container p {
+    margin: 1px 0; /* Adjust margin for spacing */
+    font-size: 1.2em; /* Larger text */
 }
 
 .assignments-container {
@@ -117,3 +141,46 @@
     height: 540px;
 }
 
+
+  
+  .card-header:hover {
+    background-color: #444; /* Hover effect */
+  }
+  
+  .list-group-item {
+    background-color: #444; /* Background color for each list item */
+    color: #fff; /* Text color */
+    border-bottom: 1px solid #f80; /* Orange border bottom */
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
+  .overflow-auto {
+    overflow: auto; /* Keep the overflow as auto */
+  }
+  /* Custom Scrollbar for Webkit Browsers */
+.overflow-auto::-webkit-scrollbar {
+    width: 10px; /* Adjust the width of the scrollbar */
+}
+
+.overflow-auto::-webkit-scrollbar-track {
+    background: #333; /* Track color */
+    border-radius: 10px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb {
+    background: #f80; /* Thumb color */
+    border-radius: 10px;
+}
+
+.overflow-auto::-webkit-scrollbar-thumb:hover {
+    background: #e70; /* Thumb hover color */
+}
+
+/* Custom Scrollbar for Firefox */
+.overflow-auto {
+    scrollbar-width: thin; /* 'auto' or 'thin' */
+    scrollbar-color: #f80 #333; /* thumb and track color */
+}

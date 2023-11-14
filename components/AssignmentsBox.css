@@ -1,59 +1,61 @@
 /* AssignmentsBox.css */
 
 .card {
-    background-color: #202020; /* Background color to match Shop */
-    color: #fff; /* Text color to match Shop */
-    border: 2px solid #f80; /* Orange border to match Shop style */
-    font-family: 'Racing Sans One', sans-serif; /* Font to match Shop */
-    margin-bottom: 20px; /* Spacing */
-  }
-  
-  .card-header {
-    background-color: #333; /* Slightly lighter background for the header */
-    color: #FFD700; /* Golden text color */
-    padding: 10px;
-    border-bottom: 2px solid #f80; /* Orange border bottom */
-    text-decoration: none; /* Remove underline from links */
-  }
-  
-  .card-header:hover {
-    background-color: #444; /* Hover effect */
-  }
-  
-  .list-group-item {
-    background-color: #444; /* Background color for each list item */
-    color: #fff; /* Text color */
-    border-bottom: 1px solid #f80; /* Orange border bottom */
-  }
-  
-  .list-group-item:last-child {
-    border-bottom: none; /* Remove border for the last item */
-  }
-  
-  .overflow-auto {
-    overflow: auto; /* Keep the overflow as auto */
-  }
-  /* Custom Scrollbar for Webkit Browsers */
+    background-color: #202020 !important; /* Background color to match Shop */
+    color: #fff !important; /* Text color to match Shop */
+    border: 2px solid #f80 !important; /* Orange border to match Shop style */
+    font-family: 'Racing Sans One', sans-serif !important; /* Font to match Shop */
+    margin-bottom: 20px !important; /* Spacing */
+}
+
+.card-header {
+    background-color: #333 !important; /* Slightly lighter background for the header */
+    color: #fff !important; /* Golden text color */
+    font-size: 25px;
+    padding: 10px !important;
+    border-bottom: 2px solid #f80 !important; /* Orange border bottom */
+    text-decoration: none !important; /* Remove underline from links */
+}
+
+.card-header:hover {
+    background-color: #444 !important; /* Hover effect */
+}
+
+.list-group-item {
+    background-color: #444 !important; /* Background color for each list item */
+    color: #fff !important; /* Text color */
+    border-bottom: 1px solid #f80 !important; /* Orange border bottom */
+}
+
+.list-group-item:last-child {
+    border-bottom: none !important; /* Remove border for the last item */
+}
+
+.overflow-auto {
+    overflow: auto !important; /* Keep the overflow as auto */
+}
+
+/* Custom Scrollbar for Webkit Browsers */
 .overflow-auto::-webkit-scrollbar {
-    width: 10px; /* Adjust the width of the scrollbar */
+    width: 10px !important; /* Adjust the width of the scrollbar */
 }
 
 .overflow-auto::-webkit-scrollbar-track {
-    background: #333; /* Track color */
-    border-radius: 10px;
+    background: #333 !important; /* Track color */
+    border-radius: 10px !important;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb {
-    background: #f80; /* Thumb color */
-    border-radius: 10px;
+    background: #f80 !important; /* Thumb color */
+    border-radius: 10px !important;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb:hover {
-    background: #e70; /* Thumb hover color */
+    background: #e70 !important; /* Thumb hover color */
 }
 
 /* Custom Scrollbar for Firefox */
 .overflow-auto {
-    scrollbar-width: thin; /* 'auto' or 'thin' */
-    scrollbar-color: #f80 #333; /* thumb and track color */
+    scrollbar-width: thin !important; /* 'auto' or 'thin' */
+    scrollbar-color: #f80 #333 !important; /* thumb and track color */
 }

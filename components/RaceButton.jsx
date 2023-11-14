@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-
+import '../pages/RaceTrack.css'
 function RaceButton() {
     
     const navigate = useNavigate();
@@ -9,8 +9,8 @@ function RaceButton() {
     }
 
     return (
-        <button type="submit" className="btn btn-primary" onClick={handleClick}>
-            Race
+        <button type="submit" className="buttonRace" onClick={handleClick}>
+            🏁  Race    🏁
         </button>
     )
 
