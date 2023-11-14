@@ -57,7 +57,7 @@ function AnnouncementItem(announcement){
                 <p>{announcement.content}</p>
             </div>
             <div className="col-2">
-                {announcement.Date}
+                {announcement.date}
             </div>
         </div>
     </div>
