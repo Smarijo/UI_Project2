@@ -5,9 +5,14 @@ import ShopButton from '../components/ShopButton';
 import '/pages/Main.css';
 import '/pages/Shop.css';
 import { Link } from 'react-router-dom';
+
 import AssignmentsBox from '../components/AssignmentsBox';
 import GradesCalculator from '../components/GradesCalculator';
 import { useBalance } from '../components/BalanceContext';
+import GradesCalculator from '../components/GradesCalculator'
+import PointsCalculator from '../components/PointsCalculator';
+import RaceButton from '../components/RaceButton';
+
 
 function Main() {
     const SDGrade = GradesCalculator('senior-design');
@@ -90,6 +95,7 @@ function Main() {
                     <ShopButton></ShopButton>
                 </div>
             </div>
+
             <div className='car-stats-container'>
                 <div className='text-center'>
                     <h2>Car Stats</h2>
@@ -104,6 +110,10 @@ function Main() {
                     </div>
                 </div>
             </div>
+
+            <div className='car-container'><RaceButton></RaceButton></div>
+            
+
         </>
     );
 }

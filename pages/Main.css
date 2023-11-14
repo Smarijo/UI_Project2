@@ -76,8 +76,44 @@
     height: 200px;
     border-top: solid;
     border-bottom: solid;
+
     background-color: #202020; /* Match Shop background */
     color: #fff; /* Match Shop text color */
     font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
     border-color: #f80; /* Match Shop border color */
 }
+
+}
+
+.car-container {
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 540px;
+}
+
+.car-image {
+    position: absolute;
+    bottom: -150px;
+    left: 200px;
+    width: 700px; /* Adjust the car's width as needed */
+    height: auto;
+  }
+
+.race-button{
+    left: 100%;
+}
+
+.car-container {
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 540px;
+}
+
