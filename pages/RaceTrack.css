@@ -107,9 +107,22 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: black;
   padding: 20px;
-  border: 2px solid #333;
+  border: 2px solid orange;
   text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: gray; 
+  color: white; 
+  border: 1px solid #333; 
+  cursor: pointer; 
+  z-index: 1000;
+  position: relative;
+  text-decoration: none;
 }
 
