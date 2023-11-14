@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom';
 import AssignmentsBox from '../components/AssignmentsBox';
 import GradesCalculator from '../components/GradesCalculator';
 import { useBalance } from '../components/BalanceContext';
-import GradesCalculator from '../components/GradesCalculator'
 import PointsCalculator from '../components/PointsCalculator';
 import RaceButton from '../components/RaceButton';
 
