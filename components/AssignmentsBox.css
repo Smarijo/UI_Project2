@@ -1,61 +1,57 @@
-/* AssignmentsBox.css */
-
 .card {
-    background-color: #202020 !important; /* Background color to match Shop */
-    color: #fff !important; /* Text color to match Shop */
-    border: 2px solid #f80 !important; /* Orange border to match Shop style */
-    font-family: 'Racing Sans One', sans-serif !important; /* Font to match Shop */
-    margin-bottom: 20px !important; /* Spacing */
+    background-color: #202020 !important;
+    color: #fff !important;
+    border: 2px solid #f80 !important;
+    font-family: 'Racing Sans One', sans-serif !important;
+    margin-bottom: 20px !important;
 }
 
 .card-header {
-    background-color: #333 !important; /* Slightly lighter background for the header */
-    color: #fff !important; /* Golden text color */
+    background-color: #333 !important;
+    color: #fff !important;
     font-size: 25px;
     padding: 10px !important;
-    border-bottom: 2px solid #f80 !important; /* Orange border bottom */
-    text-decoration: none !important; /* Remove underline from links */
+    border-bottom: 2px solid #f80 !important;
+    text-decoration: none !important;
 }
 
 .card-header:hover {
-    background-color: #444 !important; /* Hover effect */
+    background-color: #444 !important;
 }
 
 .list-group-item {
-    background-color: #444 !important; /* Background color for each list item */
-    color: #fff !important; /* Text color */
-    border-bottom: 1px solid #f80 !important; /* Orange border bottom */
+    background-color: #444 !important;
+    color: #fff !important;
+    border-bottom: 1px solid #f80 !important;
 }
 
 .list-group-item:last-child {
-    border-bottom: none !important; /* Remove border for the last item */
+    border-bottom: none !important;
 }
 
 .overflow-auto {
-    overflow: auto !important; /* Keep the overflow as auto */
+    overflow: auto !important;
 }
 
-/* Custom Scrollbar for Webkit Browsers */
 .overflow-auto::-webkit-scrollbar {
-    width: 10px !important; /* Adjust the width of the scrollbar */
+    width: 10px !important;
 }
 
 .overflow-auto::-webkit-scrollbar-track {
-    background: #333 !important; /* Track color */
+    background: #333 !important;
     border-radius: 10px !important;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb {
-    background: #f80 !important; /* Thumb color */
+    background: #f80 !important;
     border-radius: 10px !important;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb:hover {
-    background: #e70 !important; /* Thumb hover color */
+    background: #e70 !important;
 }
 
-/* Custom Scrollbar for Firefox */
 .overflow-auto {
-    scrollbar-width: thin !important; /* 'auto' or 'thin' */
-    scrollbar-color: #f80 #333 !important; /* thumb and track color */
+    scrollbar-width: thin !important;
+    scrollbar-color: #f80 #333 !important;
 }

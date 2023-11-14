@@ -1,4 +1,4 @@
-/* Main.css - Adjusted to match the style of Shop.css */
+
 
 .grades-container {
     position: fixed;
@@ -10,45 +10,45 @@
     height: 200px;
     border: solid;
     
-    color: #fff; /* Match Shop text color */
-    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
-    border-color: #f80; /* Match Shop border color */
+    color: #fff; 
+    font-family: 'Racing Sans One', sans-serif; 
+    border-color: #f80; 
     
 }
 
 .course {
     text-align: center;
     place-items: center;
-    color: #FFD700; /* Match star color for consistency */
+    color: #FFD700; 
 }
 
 #senior-design,
 #ui,
 #computer-graphics {
     float: left;
-    width: 33.33%; /* Adjusted for equal width */
+    width: 33.33%;
     height: 100px;
-     /* Match Shop item background */
-    border-radius: 5px; /* Match Shop item border-radius */
+     
+    border-radius: 5px; 
 }
 
 .car-stats-container {
     position: fixed;
     bottom: 40px; 
     right: 20px; 
-    background-color: #202020; /* Match Shop background */
-    padding: 20px; /* Increased padding */
-    border-radius: 10px; /* Adjusted border-radius */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adjusted shadow for larger size */
-    color: #fff; /* Match Shop text color */
-    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
-    border: 3px solid #f80; /* Thicker border for larger size */
-    width: 400px; /* Increased width */
-    height: 300px; /* Increased height */
-    font-size: 1.5em; /* Larger text */
+    background-color: #202020;
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    color: #fff; 
+    font-family: 'Racing Sans One', sans-serif; 
+    border: 3px solid #f80; 
+    width: 400px; 
+    height: 300px; 
+    font-size: 1.5em; 
 }
 .car-image-center {
-    position: fixed; /* or absolute, depending on your layout */
+    position: fixed; 
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -56,24 +56,24 @@
 }
 
 .car-image-center img {
-    max-width: 100%; /* Ensure the image is responsive */
+    max-width: 100%; 
     height: 600px;
-    /* You can set a max-height or width if required */
+    
 }
 
 .car-stats-container .star {
-    font-size: 1.5em; /* Larger stars */
-    color: #FFD700; /* Yellow stars */
+    font-size: 1.5em;
+    color: #FFD700; 
 }
 
 .car-stats-container .star-inactive {
-    font-size: 1.5em; /* Larger stars for inactive */
-    color: grey; /* Inactive stars color */
+    font-size: 1.5em; 
+    color: grey;
 }
 
 .car-stats-container p {
-    margin: 1px 0; /* Adjust margin for spacing */
-    font-size: 1.2em; /* Larger text */
+    margin: 1px 0; 
+    font-size: 1.2em; 
 }
 
 .assignments-container {
@@ -85,10 +85,10 @@
     height: 200px;
     border-top: solid;
     border-bottom: solid;
-    background-color: #202020; /* Match Shop background */
-    color: #fff; /* Match Shop text color */
-    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
-    border-color: #f80; /* Match Shop border color */
+    background-color: #202020; 
+    color: #fff; 
+    font-family: 'Racing Sans One', sans-serif;
+    border-color: #f80; 
 }
 
 .shop-container {
@@ -101,10 +101,12 @@
     border-top: solid;
     border-bottom: solid;
 
-    background-color: #202020; /* Match Shop background */
-    color: #fff; /* Match Shop text color */
-    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
-    border-color: #f80; /* Match Shop border color */
+    background-color: #202020;
+    color: #fff; 
+    font-family: 'Racing Sans One', sans-serif; 
+    border-color: #f80; 
+}
+
 }
 
 .car-container {
@@ -121,7 +123,7 @@
     position: absolute;
     bottom: -150px;
     left: 200px;
-    width: 700px; /* Adjust the car's width as needed */
+    width: 700px; 
     height: auto;
   }
 
@@ -142,43 +144,43 @@
 
   
   .card-header:hover {
-    background-color: #444; /* Hover effect */
+    background-color: #444;
   }
   
   .list-group-item {
-    background-color: #444; /* Background color for each list item */
-    color: #fff; /* Text color */
-    border-bottom: 1px solid #f80; /* Orange border bottom */
+    background-color: #444;
+    color: #fff; 
+    border-bottom: 1px solid #f80; 
   }
   
   .list-group-item:last-child {
-    border-bottom: none; /* Remove border for the last item */
+    border-bottom: none;
   }
   
   .overflow-auto {
-    overflow: auto; /* Keep the overflow as auto */
+    overflow: auto; 
   }
-  /* Custom Scrollbar for Webkit Browsers */
+
 .overflow-auto::-webkit-scrollbar {
-    width: 10px; /* Adjust the width of the scrollbar */
+    width: 10px; 
 }
 
 .overflow-auto::-webkit-scrollbar-track {
-    background: #333; /* Track color */
+    background: #333; 
     border-radius: 10px;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb {
-    background: #f80; /* Thumb color */
+    background: #f80; 
     border-radius: 10px;
 }
 
 .overflow-auto::-webkit-scrollbar-thumb:hover {
-    background: #e70; /* Thumb hover color */
+    background: #e70; 
 }
 
-/* Custom Scrollbar for Firefox */
+
 .overflow-auto {
-    scrollbar-width: thin; /* 'auto' or 'thin' */
-    scrollbar-color: #f80 #333; /* thumb and track color */
+    scrollbar-width: thin; 
+    scrollbar-color: #f80 #333; 
 }
