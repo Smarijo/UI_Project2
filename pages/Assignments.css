@@ -1,50 +1,46 @@
-/* Assignments.css */
 
-/* Applying the general theme to the Assignments page */
 .assignments-container {
-    background-color: #202020; /* Dark background */
-    color: #fff; /* White text color */
-    font-family: 'Racing Sans One', sans-serif; /* Consistent font style */
-    padding: 20px; /* Spacing around the content */
+    background-color: #202020; 
+    color: #fff; 
+    font-family: 'Racing Sans One', sans-serif; 
+    padding: 20px;
 }
 
-/* Styling for the page header */
+
 .assignments-header {
-    color: #FFD700; /* Golden text color */
-    font-size: 30px; /* Larger font size */
-    margin-bottom: 20px; /* Space below the header */
+    color: #FFD700; 
+    font-size: 30px; 
+    margin-bottom: 20px; 
 }
 
-/* Styling for tables */
 .table {
-    background-color: #444; /* Dark background for each table */
-    border: 1px solid #f80; /* Orange border */
-    border-radius: 5px; /* Rounded corners */
-    margin-bottom: 20px; /* Space below each table */
+    background-color: #444; 
+    border: 1px solid #f80; 
+    border-radius: 5px; 
+    margin-bottom: 20px;
 }
 
 .table th, .table td {
-    color: #fff; /* White text for table headers and cells */
+    color: #fff; 
 }
 
-/* Styling for table headers */
+
 .table thead th {
-    background-color: #333; /* Slightly darker background for headers */
-    border-bottom: 2px solid #f80; /* Orange bottom border */
+    background-color: #333;
+    border-bottom: 2px solid #f80; 
 }
 
-/* Styling for buttons inside the table */
+
 .table .btn {
-    background-color: #f80; /* Orange background */
-    color: #202020; /* Dark text color */
-    border: none; /* No border */
-    padding: 5px 10px; /* Padding around the text */
-    border-radius: 5px; /* Rounded corners */
+    background-color: #f80;
+    color: #202020; 
+    border: none;
+    padding: 5px 10px; 
+    border-radius: 5px; 
 }
 
 .table .btn:hover {
-    background-color: #e70; /* Slightly lighter orange on hover */
+    background-color: #e70; 
 }
 
-/* Additional custom scrollbar styles if needed */
-/* ... (similar to the styles in AssignmentsBox.css) ... */
+
