@@ -14,7 +14,8 @@ import Grades from '/pages/Grades'
 import Modules from '/pages/Modules'
 import Announcements  from "../pages/Announcements";
 import TurnIn from "../pages/TurnIn";
-
+import CourseAssignment from "../pages/CourseAssignment";
+import CoursePage from "../pages/CoursePage";
 import { BalanceProvider } from '../components/BalanceContext';
 import Race from "../pages/race";
 
@@ -35,6 +36,8 @@ function App() {
           <Route path="/courses/:course/modules" element={<Modules />} />
           <Route path="/courses/:course/announcements" element={<Announcements />} />
           <Route path="/courses/:course/assignments" element={<Assignments />} />
+          <Route path="/courses/:course/assignments/:assn" element={<CourseAssignment />} />
+          <Route path="/courses/:course/pages/:page" element={<CoursePage />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/turnIn" element={<TurnIn />} />
 
