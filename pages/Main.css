@@ -1,3 +1,5 @@
+/* Main.css - Adjusted to match the style of Shop.css */
+
 .grades-container {
     position: fixed;
     left: 0;
@@ -7,34 +9,47 @@
     width: 50%;
     height: 200px;
     border: solid;
-  }
-/* h2 {
-    text-align: center;
-    width: 100%;
-    line-height: 1.1px;
-}
-h3 {
     
-    line-height: 1.1px;
-} */
+    color: #fff; /* Match Shop text color */
+    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
+    border-color: #f80; /* Match Shop border color */
+}
+
 .course {
     text-align: center;
     place-items: center;
+    color: #FFD700; /* Match star color for consistency */
 }
-#senior-design {
-    float: left;
-    width: 25%;
-    height: 100px;
-}
-#ui {
-    float: left;
-    width: 50%;
-    height: 100px;
-}
+
+#senior-design,
+#ui,
 #computer-graphics {
-    float: right;
-    width: 25%;
+    float: left;
+    width: 33.33%; /* Adjusted for equal width */
     height: 100px;
+     /* Match Shop item background */
+    border-radius: 5px; /* Match Shop item border-radius */
+}
+
+.car-stats-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: #202020; /* Match Shop background */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff; /* Match Shop text color */
+    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
+    border: 2px solid #f80; /* Orange border */
+}
+
+.car-stats-container .star {
+    color: #FFD700; /* Yellow stars */
+}
+
+.car-stats-container .star-inactive {
+    color: grey; /* Inactive stars color */
 }
 
 .assignments-container {
@@ -46,6 +61,10 @@ h3 {
     height: 200px;
     border-top: solid;
     border-bottom: solid;
+    background-color: #202020; /* Match Shop background */
+    color: #fff; /* Match Shop text color */
+    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
+    border-color: #f80; /* Match Shop border color */
 }
 
 .shop-container {
@@ -57,4 +76,44 @@ h3 {
     height: 200px;
     border-top: solid;
     border-bottom: solid;
+
+    background-color: #202020; /* Match Shop background */
+    color: #fff; /* Match Shop text color */
+    font-family: 'Racing Sans One', sans-serif; /* Match Shop font */
+    border-color: #f80; /* Match Shop border color */
 }
+
+}
+
+.car-container {
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 540px;
+}
+
+.car-image {
+    position: absolute;
+    bottom: -150px;
+    left: 200px;
+    width: 700px; /* Adjust the car's width as needed */
+    height: auto;
+  }
+
+.race-button{
+    left: 100%;
+}
+
+.car-container {
+    position: fixed;
+    left: 25%;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 540px;
+}
+

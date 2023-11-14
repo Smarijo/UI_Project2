@@ -15,11 +15,14 @@ import Modules from '/pages/Modules'
 import Announcements  from "../pages/Announcements";
 import TurnIn from "../pages/TurnIn";
 
+import { BalanceProvider } from '../components/BalanceContext';
+import Race from "../pages/race";
+
+
 function App() {
 
-  return(
-    <>
-    <div>
+  return (
+    <BalanceProvider> {/* Wrap your application with BalanceProvider */}
       <BrowserRouter>
         <Routes>
           <Route index element={<Main />} />
@@ -33,12 +36,16 @@ function App() {
           <Route path="/courses/:course/announcements" element={<Announcements />} />
           <Route path="/courses/:course/assignments" element={<Assignments />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/turnIn" element={<TurnIn />} />
+
           <Route path="/courses/:course/assignments/:assignment" element={<TurnIn />} />
+         
+          <Route path="/race" element={<Race />} />
+
         </Routes>
       </BrowserRouter>
-    </div>
-    </>
-  )
+    </BalanceProvider>
+  );
 }
 
 export default App

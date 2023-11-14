@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Item from '../components/Item';
 import Balance from '../components/Balance';
@@ -13,19 +13,22 @@ import engine1 from '../components/images/engine.png';
 import engine2 from '../components/images/turbo.png';
 import frame1 from '../components/images/standard.png';
 import frame2 from '../components/images/sleek.png';
-import PointsCalculator from '../components/PointsCalculator';
+import { useBalance } from '../components/BalanceContext.jsx';
 
 const Shop = () => {
-  const [balance, setBalance] = useState(PointsCalculator()); 
-  const [purchasedItems, setPurchasedItems] = useState({}); 
+  const { balance, setBalance, purchasedItems, setPurchasedItems, carStats, setCarStats } = useBalance();
+  const navigate = useNavigate();
 
-  const purchaseItem = (itemName, price) => {
+  const purchaseItem = (itemName, itemStats, price) => {
     if (balance >= price && !purchasedItems[itemName]) {
       setBalance(balance - price);
       setPurchasedItems({
         ...purchasedItems,
         [itemName]: true 
       });
+
+      // Update car stats based on the purchased item
+      setCarStats({ ...carStats, [itemStats.statName.toLowerCase()]: itemStats.stats });
     } else {
       if (purchasedItems[itemName]) {
         alert('Item already bought!');
@@ -52,8 +55,6 @@ const Shop = () => {
 
   // Inline style for icons
   const iconStyle = { fontSize: '3em' }; 
-
-  const navigate = useNavigate();
 
   function handleClick() {
       navigate("/home");
@@ -85,7 +86,7 @@ const Shop = () => {
                 key={item.name}
                 item={item}
                 statName={item.statName}
-                purchaseItem={() => purchaseItem(item.name, item.price)}
+                purchaseItem={() => purchaseItem(item.name, { statName: item.statName, stats: item.stats }, item.price)}
                 isPurchased={purchasedItems[item.name]}
               />
             ))}
