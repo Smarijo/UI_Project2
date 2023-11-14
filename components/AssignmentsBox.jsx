@@ -2,6 +2,7 @@ import React from "react"
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Assignments from "../pages/Assignments";
 import assignmentsJson from '../src/assignments.json';
+import './AssignmentsBox.css'
 
 
 class AssignmentsBox extends React.Component{
@@ -23,7 +24,7 @@ class AssignmentsBox extends React.Component{
                             <GetUpcomingAssignments></GetUpcomingAssignments>
                         </div>
                         <Link to="/courses/all/assignments" className="card-header">
-                            Past Assignments
+                            Recent Assignments
                         </Link>
                         <div className="list-group-item overflow-auto" style={{height:340}}>
                             <GetCompletedAssignments></GetCompletedAssignments>
