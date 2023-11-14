@@ -19,7 +19,7 @@ function Modules() {
                     <h1>Modules</h1>
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
-                        <Accordion.Item eventKey="0" className="bg-dark text-white">
+                        <Accordion.Item eventKey="0">
                             <Accordion.Header><h3>Module 1 - Foundations</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
@@ -133,14 +133,14 @@ function Modules() {
                     <br></br>
                     <Accordion defaultActiveKey={['1']} alwaysOpen>
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header><h3>Module 8</h3></Accordion.Header>
+                            <Accordion.Header><h3>Module 8 - Light and shadow</h3></Accordion.Header>
                             <Accordion.Body>
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/computer_graphics/presentations/08-01.pptx">Light and shadow p1 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/computer_graphics/presentations/08-02.pptx">Light and shadow p2 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/computer_graphics/presentations/08-03.pptx">Light and shadow p3 (Slides)</a></li>
                                     <li className="list-group-item"><Link to={`/courses/compute-graphics/assignments/CGassignment_08`}>Assignment 8 - Light and shadow</Link></li>
-                                    <li className="list-group-item"><Link to={`/computer_graphics/exams/midterm`}>Midterm exam</Link></li>
+                                    <li className="list-group-item"><Link to={`/courses/computer-graphics/exams/midterm`}>Midterm exam</Link></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
@@ -215,10 +215,8 @@ function Modules() {
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/ui/presentations/04-01-web-p1.pptx">The Web (Slides)</a></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/tutorial0`}>The Web tutorial</Link></li>
-                                    <li className="list-group-item"><Link to={`/courses/ui/pages/tutorial1`}>HTML tutorial</Link></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/inclass_05`}>HTML practice</Link></li>
                                     <li className="list-group-item"><a href="/ui/presentations/04-02.pptx">HTML (Slides)</a></li>
-                                    <li className="list-group-item"><Link to={`/courses/ui/pages/tutorial2`}>CSS tutorial</Link></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/inclass_06`}>HTML practice</Link></li>
                                     <li className="list-group-item"><a href="/ui/presentations/04-02-html-css.pptx">CSS (Slides)</a></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/inclass_07`}>HTML practice</Link></li>
@@ -235,7 +233,6 @@ function Modules() {
                                 <ul className="list-group list-group-flush">
                                     <li className="list-group-item"><a href="/ui/presentations/05-01-javascript-p1.pptx">Javascript (Slides)</a></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/tutorial3`}>Web server</Link></li>
-                                    <li className="list-group-item"><Link to={`/courses/ui/pages/tutorial4`}>Javascript part 1</Link></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/inclass_08`}>Javascript practice</Link></li>
                                     <li className="list-group-item"><a href="/ui/presentations/05-02-javascript-p2.pptx">Javascript part 2 (Slides)</a></li>
                                     <li className="list-group-item"><Link to={`/courses/ui/pages/inclass_09`}>Javascript practice 2</Link></li>
@@ -272,8 +269,8 @@ function Modules() {
                                     <li className="list-group-item"><a href="/ui/presentations/07-03-people.pptx">People 2 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/08-02-people.pptx">People 3 (Slides)</a></li>
                                     <li className="list-group-item"><a href="/ui/presentations/08-03-people.pptx">People 4 (Slides)</a></li>
-                                    <li className="list-group-item"><Link to={`/courses/ui/project/07`}>Project 1 implementation</Link></li>
-                                    <li className="list-group-item"><Link to={`/courses/ui/project/08`}>Project 1 documentation</Link></li>
+                                    <li className="list-group-item"><Link to={`/courses/ui/assignments/UI07`}>Project 1 implementation</Link></li>
+                                    <li className="list-group-item"><Link to={`/courses/ui/assignments/UI08`}>Project 1 documentation</Link></li>
                                 </ul>
                         </Accordion.Body>
                         </Accordion.Item> 
