@@ -1,4 +1,4 @@
-/* Adjustments for the sidebar menu to match the theme from Shop.css */
+
 
 .bm-burger-button {
   position: absolute;
@@ -9,11 +9,11 @@
 }
 
 .bm-burger-bars {
-  background: #f80; /* Adjusted to match Shop button color */
+  background: #f80; 
 }
 
 .bm-burger-bars-hover {
-  background: #e70; /* Adjusted for hover effect similar to Shop */
+  background: #e70; 
 }
 
 .bm-cross-button {
@@ -23,7 +23,7 @@
 }
 
 .bm-cross {
-  background: #f80; /* Adjusted to match Shop button color */
+  background: #f80;
 }
 
 .bm-menu-wrap {
@@ -32,11 +32,11 @@
 }
 
 .bm-menu {
-  background: #202020; /* Adjusted to match Shop background */
+  background: #202020; 
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
-  color: #fff; /* Adjusted to match Shop text color */
-  font-family: 'Racing Sans One', sans-serif; /* Adjusted to match Shop font */
+  color: #fff; 
+  font-family: 'Racing Sans One', sans-serif; 
 }
 
 .bm-item-list {
@@ -45,7 +45,7 @@
 
 .bm-item {
   display: inline-block;
-  color: #FFD700; /* Adjusted to match Shop star color */
+  color: #FFD700; 
   margin-bottom: 10px;
   text-align: left;
   text-decoration: none;
@@ -53,9 +53,9 @@
 }
 
 .bm-item:hover {
-  color: #e70; /* Adjusted for hover effect similar to Shop */
+  color: #e70; 
 }
 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3); /* Overlay background, can be adjusted if needed */
+  background: rgba(0, 0, 0, 0.3);
 }

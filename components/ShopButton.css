@@ -1,14 +1,13 @@
-/* ShopButton.css */
 
 .buttonShop {
     margin-bottom: 30px;
   
-    background-color: #f80; /* Orange background to match Shop style */
-    color: #202020; /* Dark text color */
-    border: none; /* No border for the button */
-    font-size: 20px; /* Font size */
-    padding: 15px 60px; /* Padding around the text */
-    border-radius: 20px; /* Rounded corners */
-    font-family: 'Racing Sans One', sans-serif; /* Consistent font style */
-    cursor: pointer; /* Cursor changes to pointer on hover */
+    background-color: #f80; 
+    color: #202020; 
+    border: none; 
+    font-size: 20px; 
+    padding: 15px 60px; 
+    border-radius: 20px; 
+    font-family: 'Racing Sans One', sans-serif; 
+    cursor: pointer; 
 }
