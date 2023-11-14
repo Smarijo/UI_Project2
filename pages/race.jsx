@@ -104,6 +104,9 @@ const RaceTrack = ({ playerTime, onCarFinish }) => {
           </button>
         ))}
       </div>
+      <a className="menu-item" href="/home">
+        Main Page
+      </a>
     </div>
   );
 };
