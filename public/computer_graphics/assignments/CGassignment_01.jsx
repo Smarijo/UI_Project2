@@ -8,7 +8,7 @@ return(<><h2>Assignment 1 description</h2>
 </ol></>)
 }
 
-export default CGAssignment_01
+export default Assignment_01
 
 
 

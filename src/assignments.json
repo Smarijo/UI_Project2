@@ -1135,8 +1135,8 @@
             "module": "module1",
             "title": "Monday lecture: Intro",
             "reference": "na",
-            "submitted": false,
-            "points_earned": "na"
+            "submitted": true,
+            "points_earned": "1"
      },
           {
             "name": "01-02-usability.pptx",
@@ -1177,8 +1177,8 @@
             "module": "module1",
             "title": "Assignment 1 - Getting to know you",
             "reference": "na",
-            "submitted": false,
-            "points_earned": "na"
+            "submitted": true,
+            "points_earned": "4"
      },
           {
             "name": "module2",

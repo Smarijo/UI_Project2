@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import SDAssignment_01 from '../course-data/senior_design/assignments/SDassignment_01';
 import SDAssignment_02 from '../course-data/senior_design/assignments/SDassignment_02';
@@ -43,6 +43,8 @@ function CourseAssignment() {
                         <br></br>
                         <br></br>
                         <UIAssignment_01 />
+                        
+
                     </div>
                     </>
             )

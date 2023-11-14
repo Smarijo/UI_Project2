@@ -4,5 +4,3 @@ function SDAssignment_05()
 <ol>
 <li>Project status update #1</li>
 </ol></>)}
-
-export default SDAssignment_05

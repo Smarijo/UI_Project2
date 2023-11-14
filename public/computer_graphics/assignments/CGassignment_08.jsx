@@ -6,4 +6,4 @@ function CGAssignment_08()
 <li>Video link to your application</li>
 </ol></>)}
 
-export default CGAssignment_08
+export default Assignment_08

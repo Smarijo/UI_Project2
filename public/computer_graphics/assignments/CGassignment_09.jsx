@@ -5,5 +5,3 @@ function CGAssignment_09()
 <li>Your code</li>
 <li>Video link to your application</li>
 </ol></>)}
-
-export default CGAssignment_09

@@ -37,7 +37,7 @@ function App() {
           <Route path="/courses/:course/modules" element={<Modules />} />
           <Route path="/courses/:course/announcements" element={<Announcements />} />
           <Route path="/courses/:course/assignments" element={<Assignments />} />
-          <Route path="/courses/:course/assignments/:assn" element={<CourseAssignment />} />
+          <Route path="/courses/:course/assignment/:assn" element={<CourseAssignment />} />
           <Route path="/courses/:course/pages/:page" element={<CoursePage />} />
           <Route path="/courses/:course/exams/midterm" element={<CourseExam />} />
           <Route path="/shop" element={<Shop />} />
